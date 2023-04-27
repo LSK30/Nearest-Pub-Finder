@@ -26,7 +26,7 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 background-size: cover;
 background-position: top center;
 }
@@ -37,7 +37,7 @@ background-position: top center;
 side_bgimg = '''
 <style>
 .stApp {
-background-image: url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 background-size: cover;
 background-position: left;
 }
