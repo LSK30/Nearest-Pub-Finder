@@ -45,7 +45,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image(img, width=400, caption="It's PUB, it's relief 😋")
+    st.image(img, width=400, caption=" 'A good local pub has much in common with a church, except that a pub is warmer, and there's more conversation.' ~ William Blake")
 
 with col3:
     st.write(' ')
@@ -103,7 +103,7 @@ def uk_viz(a, b):
 
 if option == "name":
     loc = df["name"].unique()
-    st.markdown("<h2 style='text-align: center; color: red;'>🍻 KNOW the Pubs PubName-wise 🍻</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: red;'>🍻 Know the Pubs Pub Name-wise 🍻</h2>", unsafe_allow_html=True)
     locality = st.selectbox("📩 select the Pub Name to find Your Desired PUB 💌:- ", loc)
     st.write(":red[Wanna See The VIZ 🤩]")
     butt = st.button("Yeah ‼")
@@ -118,7 +118,7 @@ if option == "name":
 
 elif option == "postcode":
     loc = df["postcode"].unique()
-    st.markdown("<h2 style='text-align: center; color: red;'>🍻 KNOW the Pubs Postal Code-wise 🍻</h2>",
+    st.markdown("<h2 style='text-align: center; color: red;'>🍻 Know the Pubs Postal Code-wise 🍻</h2>",
                 unsafe_allow_html=True)
     locality = st.selectbox("👉 select the Postal Code to find Your Desired PUB 💌:- ", loc)
     st.write(":red[Wanna See The VIZ 🤩]")
