@@ -37,7 +37,7 @@ st.markdown("<b><h4 style='text-align: center; color: red;'>🌍 The time has go
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://images.pexels.com/photos/1267363/pexels-photo-1267363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-image: url("https://wallpaperaccess.com/full/2324804.jpg");
 background-size: cover;
 background-position: top center;
 }
