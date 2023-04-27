@@ -47,7 +47,7 @@ st.sidebar.markdown(side_bgimg, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("Welcome!! :red[Everyone]")
-st.subheader("let's enjoy together😎😎😎😎")
+
 
 # Load css, pdf and profile pic
 
