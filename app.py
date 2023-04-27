@@ -1,4 +1,4 @@
-import streamlit as st
+oimport streamlit as st
 from PIL import Image
 import os
 
@@ -37,7 +37,7 @@ background-position: top center;
 side_bgimg = '''
 <style>
 .stApp {
-background-image: url("https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
 background-size: cover;
 background-position: left;
 }
@@ -47,7 +47,7 @@ st.sidebar.markdown(side_bgimg, unsafe_allow_html=True)
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("Welcome!! :red[Everyone]")
-st.subheader("let's drink together😎😎😎😎")
+st.subheader("let's enjoy together😎😎😎😎")
 
 # Load css, pdf and profile pic
 
