@@ -67,9 +67,9 @@ long = st.number_input("Enter Your Longitude:", min_value=-7.384525, max_value=1
 if not -7.384525 <= long <= 1.757763:
     st.error(error_msg2)
 
-st.markdown("<b><h7 style='text-align: center; color: tomato;'>1) After entering the values please press the Enter ⎆ key 🤔</h7></b>", unsafe_allow_html=True)
-st.markdown("<b><h7 style='text-align: center; color: tomato;'>2) If Error occured i.e. the value is beyond of the renge then please currect that before entering further, this is because "
-            "we are predicting that you are near about UK that's why you are finding the pubs near UK 😂😂</h7></b>", unsafe_allow_html=True)
+st.markdown("<b><h7 style='text-align: center; color: tomato;'>1) After entering the values please press the Enter ⎆ key </h7></b>", unsafe_allow_html=True)
+st.markdown("<b><h7 style='text-align: center; color: tomato;'>2) If Error occurs i.e. the value is beyond of the range (Data consist of only UK Pubs)"
+            </h7></b>", unsafe_allow_html=True)
 
 
 
@@ -91,7 +91,7 @@ st.markdown("<h4 style='text-align: center; color: orange;'>🤖 Hurrah‼️We 
 butt = st.button("Do You Wanna SEE 🤩")
 if butt:
     st.markdown(
-        "<h5 style='text-align: center; color: violet;'>The List of 5 Nearest Pub 🍷>",
+        "<h5 style='text-align: center; color: violet;'>The List of 5 Nearest Pubs>",
         unsafe_allow_html=True)
     rg = top_5_pubs[["name", "postcode", "latitude", "longitude", "local_authority", "Distance"]]
     st.dataframe(rg)
@@ -107,10 +107,10 @@ if butt:
 
     folium_static(m)
     st.markdown(
-        "<h5 style = 'color: indigo;'> 1) Squeeze/zoom out the map to view the all of your nearest pubs</h5>",
+        "<h5 style = 'color: indigo;'> 1) Squeeze/zoom out the map to view the all of your nearest pubs.</h5>",
         unsafe_allow_html=True)
     st.markdown(
-        "<h5 style = 'color: indigo;'> 2) Tap on the green pin to view the info regarding the Pubs and its address</h5>",
+        "<h5 style = 'color: indigo;'> 2) Tap on the green pin to view the info about the Pubs and their address.</h5>",
         unsafe_allow_html=True)
 
 
@@ -122,7 +122,7 @@ if butt:
 
 
 
-st.subheader("Hope You Enjoyed 🙄🙄")
+
 
 
 
