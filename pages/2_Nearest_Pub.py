@@ -37,7 +37,7 @@ st.markdown("<b><h4 style='text-align: center; color: red;'>🌍 The time has go
 page_bg_img = '''
 <style>
 .stApp {
-background-image: url("https://wallpaperaccess.com/full/2324804.jpg");
+background-image: url("https://c0.wallpaperflare.com/preview/641/1018/471/bar-stool-drink-booze.jpg");
 background-size: cover;
 background-position: top center;
 }
