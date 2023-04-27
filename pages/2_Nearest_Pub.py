@@ -68,8 +68,7 @@ if not -7.384525 <= long <= 1.757763:
     st.error(error_msg2)
 
 st.markdown("<b><h7 style='text-align: center; color: tomato;'>1) After entering the values please press the Enter ⎆ key </h7></b>", unsafe_allow_html=True)
-st.markdown("<b><h7 style='text-align: center; color: tomato;'>2) If Error occurs i.e. the value is beyond of the range (Data consist of only UK Pubs)"
-            </h7></b>", unsafe_allow_html=True)
+st.markdown("<b><h7 style='text-align: center; color: tomato;'>2) If Error occurs i.e. the value is beyond of the range (Data consist of only UK Pubs) </h7></b>", unsafe_allow_html=True)
 
 
 
