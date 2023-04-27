@@ -1,4 +1,4 @@
-oimport streamlit as st
+import streamlit as st
 from PIL import Image
 import os
 
